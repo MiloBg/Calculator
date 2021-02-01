@@ -1,3 +1,7 @@
+/* --------------------------
+        Basic Setup
+-------------------------- */
+
 * {
     box-sizing: border-box;
 }
@@ -8,6 +12,10 @@ body {
     padding-top: 30px;
     font-family: 'Lora', serif;
 }
+
+/* --------------------------
+    Calculator Setup
+-------------------------- */
 
 .calculator {
     max-width: 400px;
@@ -67,6 +75,10 @@ body {
 .equals {
     background: #28D060;
 }
+
+/* --------------------------
+        Input Setup
+-------------------------- */
 
 .js-version {
     margin: 0 auto;
