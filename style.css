@@ -6,6 +6,7 @@ body {
     background: #f6f6f6;
     padding-bottom: 30px;
     padding-top: 30px;
+    font-family: 'Lora', serif;
 }
 
 .calculator {
@@ -13,7 +14,6 @@ body {
     margin: 0 auto;
     border: 2px solid #111;
     border-radius: 5px;
-        background-image: url(/img/space.jpg);
 
 }
 
@@ -68,23 +68,27 @@ body {
     background: #28D060;
 }
 
-.js-calc {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 60%;
-}
-
-#result {
-    color: red;
-    border: 3px solid red;
-    border-radius: 10px;
+.js-version {
+    margin: 0 auto;
+    max-width: 800px;
     text-align: center;
 }
 
 h2 {
-    padding: 20px;
-    color: blue;
-    text-align: center;
+    color: #3572D8;
+}
+
+.js-calc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px 0;
+    color: red;
+    font-size: 20px;
+    border: 3px solid red;
+    border-radius: 10px;
 }
